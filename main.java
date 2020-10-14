@@ -6,7 +6,7 @@ import java.util.Scanner;
 // This program redacts proper nouns from a given text.
 // In War and Peace it encounters some issues when finding the start of sentences due to the writing style.
 // Over a few chapters the program usually performs excellently, but less so over the entire book.
-public class CW2Q6 {
+public class main {
 
     // This function will return true if both strings are equal.
     protected static boolean equals (String string1, String string2) {
@@ -195,9 +195,9 @@ public class CW2Q6 {
     }
 
     public static void main(String[] args) {
-        String textPath = "C:\\Users\\Harry\\OneDrive - University of Bath\\Programming\\CW4-C&Java\\Files\\Q6\\warandpeace.txt";
-        String redactPath = "C:\\Users\\Harry\\OneDrive - University of Bath\\Programming\\CW4-C&Java\\Files\\Q6\\redact.txt";
-        String outPath = "C:\\Users\\Harry\\OneDrive - University of Bath\\Programming\\CW4-C&Java\\Files\\Q6\\warandpeace-redact.txt";
+        String textPath = "";
+        String redactPath = "";
+        String outPath = "";
 
         // Import the text.
         String text = importText(textPath);
